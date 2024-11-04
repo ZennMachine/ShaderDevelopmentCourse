@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: HelloShader
-  m_Shader: {fileID: 4800000, guid: f51d8289e53d6ec46a5a3baf9d881392, type: 3}
+  m_Name: BlinnPhong
+  m_Shader: {fileID: 4800000, guid: aa20ad9cff0c8f146bb2bd95bd56b907, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -97,7 +97,7 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _Gloss: 0.507
+    - _Gloss: 0.918
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -108,7 +108,7 @@ Material:
     - _Parallax: 0.02
     - _RimPower: 1.7
     - _SmoothnessTextureChannel: 0
-    - _Spec: 0.497
+    - _Spec: 0.403
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _StripeSize: 0.336
@@ -127,6 +127,7 @@ Material:
     - _Colour: {r: 0.4188679, g: 0.4188679, b: 0.4188679, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _RimColour: {r: 1, g: 0, b: 0.3563938, a: 0}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColour: {r: 1, g: 1, b: 1, a: 1}
     - _myColour: {r: 1, g: 1, b: 1, a: 1}
     - _myEmission: {r: 0.1458272, g: 0.19245279, b: 0, a: 0}
